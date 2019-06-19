@@ -259,6 +259,7 @@ print(sister.replace("z","sa"))
 #Everything = object
 #Object have methods associated, depending on type
 
+#hi
 print(sister.index("i"))
  
 print(fam.index("mom"))
