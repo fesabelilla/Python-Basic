@@ -5,6 +5,11 @@ Created on Sun Jun  9 12:45:28 2019
 @author: Asus
 """
 
+
+#Script 
+#Shell
+
+
 #chapter - 1
 
 ## L - 1
@@ -213,3 +218,58 @@ print(len(var1))
 # Convert var2 to an integer: out2
 out2 = int(var2)
 #or out2 = round(var2)
+
+# sorted() function
+
+help(sorted)
+
+# Create lists first and second
+first = [11.25, 18.0, 20.0]
+second = [10.75, 9.50]
+
+# Paste together first and second: full
+
+full = first + second
+
+# Sort full in descending order: full_sorted
+
+full_sorted = sorted(full,reverse = True)
+
+# Print out full_sorted
+
+print(full_sorted)
+
+
+# List Method 
+
+fam = ["liz",1.73,"ema",1.68,"mom",1.71]
+a = fam.index("mom")
+print(a)
+b = fam.count(1.73)
+print(b)
+
+# str method
+sister = "liz"
+print(sister)
+print(sister.capitalize());
+
+print(sister.replace("z","sa"))
+
+
+#Everything = object
+#Object have methods associated, depending on type
+
+print(sister.index("i"))
+ 
+print(fam.index("mom"))
+
+
+print(fam)
+fam.append("me")
+fam.append(1.79)
+print(fam)
+
+
+
+
+
